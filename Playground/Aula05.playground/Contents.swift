@@ -80,3 +80,19 @@ case .size(let width, let height): //(let size size.width size.height)
 // Classe = Reference Type
 // Struct = Value Type
 
+struct Driver {
+    var name: String
+    var age: Int
+    var cnh: String
+}
+
+var driver: Driver = Driver(name: "Leandro Romano", age: 21, cnh: "98753897534")
+var driver2 = driver
+driver2.name = "Carlos"
+
+print(driver.name, driver2.name)
+
+func doNothing() {
+    
+}
+

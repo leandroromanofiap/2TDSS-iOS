@@ -98,3 +98,14 @@ func sayHello(to name: String) {
 
 sayHello(to: "Leandro")
 
+var leandro: Driver = Driver.(name: "Leandro", age: 21, cnh: "843824823423")
+func registerDriver(_ driver: Driver) {
+    
+}
+registerDriver(leandro)
+
+func sum(_ a: Int, _ b: Int) -> Int {
+    return a + b
+}
+
+let numbers = sum(10, 20)

@@ -92,7 +92,9 @@ driver2.name = "Carlos"
 
 print(driver.name, driver2.name)
 
-func doNothing() {
-    
+func sayHello(to name: String) {
+    print("Olá \(name)")
 }
+
+sayHello(to: "Leandro")
 

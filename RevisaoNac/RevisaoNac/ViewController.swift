@@ -15,7 +15,9 @@ class ViewController: UIViewController {
         
         guard let button = sender as? UIButton else { return }
         
-        vc.lottery = button.currentTitle!
+        guard let currentTitleButton = button.currentTitle else { return }
+        vc.lottery = currentTitleButton
+        vc.color = button.currentTitleColor
     }
     
     @IBAction func showLottery(_ sender: UIButton) {

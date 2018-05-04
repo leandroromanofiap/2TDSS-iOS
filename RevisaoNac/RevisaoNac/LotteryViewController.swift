@@ -9,7 +9,7 @@
 import UIKit
 
 class LotteryViewController: UIViewController {
-
+    
     @IBOutlet weak var lbLottery: UILabel!
     var lottery: String = ""
     var color: UIColor = .black
@@ -17,12 +17,12 @@ class LotteryViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         lbLottery.text = "Esses são os jogos da \(lottery)"
-        lbLottery.textColor=color
+        lbLottery.textColor = color
         title = lottery
     }
     
     deinit {
         
     }
-
+    
 }

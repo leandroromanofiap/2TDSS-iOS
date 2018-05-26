@@ -12,6 +12,7 @@
 		FDF8BEDB20B8DF19001F04CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF8BED920B8DF19001F04CB /* Main.storyboard */; };
 		FDF8BEDD20B8DF1B001F04CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF8BEDC20B8DF1B001F04CB /* Assets.xcassets */; };
 		FDF8BEE020B8DF1B001F04CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF8BEDE20B8DF1B001F04CB /* LaunchScreen.storyboard */; };
+		FDF8BEEA20B8E0AC001F04CB /* consoles.json in Resources */ = {isa = PBXBuildFile; fileRef = FDF8BEE920B8E0AC001F04CB /* consoles.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FDF8BEDC20B8DF1B001F04CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDF8BEDF20B8DF1B001F04CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDF8BEE120B8DF1B001F04CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF8BEE920B8E0AC001F04CB /* consoles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = consoles.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FDF8BED420B8DF19001F04CB /* TableViewJson */ = {
 			isa = PBXGroup;
 			children = (
+				FDF8BEE920B8E0AC001F04CB /* consoles.json */,
 				FDF8BED520B8DF19001F04CB /* AppDelegate.swift */,
 				FDF8BED720B8DF19001F04CB /* ViewController.swift */,
 				FDF8BED920B8DF19001F04CB /* Main.storyboard */,
@@ -125,6 +128,7 @@
 				FDF8BEE020B8DF1B001F04CB /* LaunchScreen.storyboard in Resources */,
 				FDF8BEDD20B8DF1B001F04CB /* Assets.xcassets in Resources */,
 				FDF8BEDB20B8DF19001F04CB /* Main.storyboard in Resources */,
+				FDF8BEEA20B8E0AC001F04CB /* consoles.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

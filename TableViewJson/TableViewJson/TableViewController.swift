@@ -27,6 +27,14 @@ class TableViewController: UITableViewController {
             print(error.localizedDescription)
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let vc = segue.destination as? ViewController else { return }
+        
+        let console = consoles[tableView.indexPathForSelectedRow!.row]
+        
+        vc.console = console
+    }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -35,16 +43,16 @@ class TableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return consoles.count
     }
-
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let console = consoles[indexPath.row]
+        
+        cell.textLabel?.text = console.name
+        cell.detailTextLabel?.text = console.manufacturer
 
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.

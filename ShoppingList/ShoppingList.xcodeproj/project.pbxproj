@@ -15,6 +15,7 @@
 		AC073A7821317D7700D51547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC073A7621317D7700D51547 /* LaunchScreen.storyboard */; };
 		AC073A8021317F3E00D51547 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC073A7F21317F3E00D51547 /* TableViewController.swift */; };
 		AC073A82213184E300D51547 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC073A81213184E300D51547 /* GoogleService-Info.plist */; };
+		FD30934121683A670042F907 /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD30934021683A670042F907 /* ShoppingItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AC073A7F21317F3E00D51547 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		AC073A81213184E300D51547 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B647FCB8335532B44445B68E /* Pods-ShoppingList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingList.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingList/Pods-ShoppingList.release.xcconfig"; sourceTree = "<group>"; };
+		FD30934021683A670042F907 /* ShoppingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				AC073A7421317D7700D51547 /* Assets.xcassets */,
 				AC073A7621317D7700D51547 /* LaunchScreen.storyboard */,
 				AC073A7921317D7700D51547 /* Info.plist */,
+				FD30934021683A670042F907 /* ShoppingItem.swift */,
 			);
 			path = ShoppingList;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD30934121683A670042F907 /* ShoppingItem.swift in Sources */,
 				AC073A7021317D7500D51547 /* ViewController.swift in Sources */,
 				AC073A8021317F3E00D51547 /* TableViewController.swift in Sources */,
 				AC073A6E21317D7500D51547 /* AppDelegate.swift in Sources */,
